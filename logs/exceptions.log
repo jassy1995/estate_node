@@ -1,0 +1,353 @@
+{ time: [34m03-08-2023 12:54:55[39m level: [31merror[39m message: uncaughtException: Unexpected token '.'
+/Users/Apple/Desktop/project/estate_app/estate_node/controllers/property.controller.js:13
+  const country = query?.country;
+                        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/property.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10) stack: /Users/Apple/Desktop/project/estate_app/estate_node/controllers/property.controller.js:13
+  const country = query?.country;
+                        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/property.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10) }
+{ time: [34m05-08-2023 18:43:32[39m level: [31merror[39m message: uncaughtException: Unexpected token '.'
+/Users/Apple/Desktop/project/estate_app/estate_node/controllers/property.controller.js:13
+  const country = query?.country;
+                        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/property.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10) stack: /Users/Apple/Desktop/project/estate_app/estate_node/controllers/property.controller.js:13
+  const country = query?.country;
+                        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/property.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10) }
+{ time: [34m05-08-2023 19:19:07[39m level: [31merror[39m message: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) stack: Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) }
+{ time: [34m05-08-2023 19:21:27[39m level: [31merror[39m message: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) stack: Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) }
+{ time: [34m05-08-2023 19:24:23[39m level: [31merror[39m message: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) stack: Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/index.js:516:19)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21) }
+{ time: [34m05-08-2023 19:51:36[39m level: [31merror[39m message: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) }
+{ time: [34m05-08-2023 19:51:36[39m level: [31merror[39m message: unhandledRejection: (no error message)
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 21:39:40[39m level: [31merror[39m message: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) }
+{ time: [34m05-08-2023 21:39:40[39m level: [31merror[39m message: unhandledRejection: (no error message)
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 21:46:59[39m level: [31merror[39m message: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:18:40
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1243:14
+    at handle_response (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:483:7)
+    at ClientRequest.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:598:12)
+    at ClientRequest.emit (node:events:539:35) }
+{ time: [34m05-08-2023 21:46:59[39m level: [31merror[39m message: unhandledRejection: (no error message)
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 21:55:42[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 21:59:44[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:07:44[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:13:47[39m level: [31merror[39m message: uncaughtException: Cannot find module '../util/winston'
+Require stack:
+- /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/index.js
+Error: Cannot find module '../util/winston'
+Require stack:
+- /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) stack: Error: Cannot find module '../util/winston'
+Require stack:
+- /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js
+- /Users/Apple/Desktop/project/estate_app/estate_node/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) }
+{ time: [34m05-08-2023 22:14:53[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:39:46[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:41:25[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:41:48[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:42:48[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:42:49[39m level: [31merror[39m message: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:261:12)
+    at PassThrough.Writable.write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:305:21)
+    at File.log (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/lib/winston/transports/file.js:185:34)
+    at ExceptionStream._write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/lib/winston/exception-stream.js:48:29)
+    at doWrite (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12) stack: Error: write after end
+    at writeAfterEnd (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:261:12)
+    at PassThrough.Writable.write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:305:21)
+    at File.log (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/lib/winston/transports/file.js:185:34)
+    at ExceptionStream._write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/lib/winston/exception-stream.js:48:29)
+    at doWrite (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12) }
+{ time: [34m05-08-2023 22:43:47[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:44:51[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:46:03[39m level: [31merror[39m message: unhandledRejection: Empty file
+  No stack trace stack: undefined }
+{ time: [34m05-08-2023 22:50:09[39m level: [31merror[39m message: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:28:32
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1245:12
+    at IncomingMessage.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:507:9)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12) stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:28:32
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1245:12
+    at IncomingMessage.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:507:9)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12) }
+{ time: [34m05-08-2023 22:51:32[39m level: [31merror[39m message: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:28:32
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1245:12
+    at IncomingMessage.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:507:9)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12) stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/response.js:267:15)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:28:32
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1245:12
+    at IncomingMessage.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:507:9)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12) }
+{ time: [34m06-08-2023 01:38:31[39m level: [31merror[39m message: uncaughtException: Identifier 'storage' has already been declared
+/Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:7
+const storage = multer.memoryStorage();
+      ^
+
+SyntaxError: Identifier 'storage' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14) stack: /Users/Apple/Desktop/project/estate_app/estate_node/routes/client.route.js:7
+const storage = multer.memoryStorage();
+      ^
+
+SyntaxError: Identifier 'storage' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/util/middleware&route.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14) }

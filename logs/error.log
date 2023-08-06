@@ -1,0 +1,135 @@
+{ time: [34m05-08-2023 22:14:51[39m level: [31merror[39m message:  stack: undefined }
+{ time: [34m05-08-2023 22:39:44[39m level: [31merror[39m message:  stack: undefined }
+{ time: [34m06-08-2023 00:32:58[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'file')Cannot read properties of undefined (reading 'file') stack: TypeError: Cannot read properties of undefined (reading 'file')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:7:20)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 00:35:25[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'file')Cannot read properties of undefined (reading 'file') stack: TypeError: Cannot read properties of undefined (reading 'file')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:8:20)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 00:35:50[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'file')Cannot read properties of undefined (reading 'file') stack: TypeError: Cannot read properties of undefined (reading 'file')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:8:20)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 00:41:09[39m level: [31merror[39m message: The "path" argument must be of type string. Received an instance of BufferThe "path" argument must be of type string. Received an instance of Buffer stack: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+    at new NodeError (node:internal/errors:372:5)
+    at validateString (node:internal/validators:120:11)
+    at basename (node:path:1309:5)
+    at post (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:549:84)
+    at call_api (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:533:16)
+    at Object.upload (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/uploader.js:52:10)
+    at Object.upload (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/cloudinary/lib/utils/index.js:1260:21)
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:14:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5) }
+{ time: [34m06-08-2023 01:40:34[39m level: [31merror[39m message: ENOENT: no such file or directory, open '../uploads/file-1691282434727-581270773.docx'ENOENT: no such file or directory, open '../uploads/file-1691282434727-581270773.docx' stack: Error: ENOENT: no such file or directory, open '../uploads/file-1691282434727-581270773.docx' }
+{ time: [34m06-08-2023 01:44:06[39m level: [31merror[39m message: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefinedThe "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined stack: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFile (node:internal/fs/promises:762:5)
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:17:14)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5) }
+{ time: [34m06-08-2023 01:51:33[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:20:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 01:55:53[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:20:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 01:56:29[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:20:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 02:13:35[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:20:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 02:14:03[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:20:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 02:15:28[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:22:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }
+{ time: [34m06-08-2023 02:17:20[39m level: [31merror[39m message: Cannot read properties of undefined (reading 'upload')Cannot read properties of undefined (reading 'upload') stack: TypeError: Cannot read properties of undefined (reading 'upload')
+    at exports.uploadFile (/Users/Apple/Desktop/project/estate_app/estate_node/controllers/client.controller.js:22:46)
+    at /Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express-async-errors/index.js:17:20
+    at Layer.handle [as handle_request] (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/express/lib/router/route.js:144:13)
+    at Array.<anonymous> (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:169:15)
+    at onFinish (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/on-finished/index.js:100:5)
+    at callback (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/Users/Apple/Desktop/project/estate_app/estate_node/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (node:events:539:35) }

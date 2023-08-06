@@ -4,6 +4,8 @@ const PropertyOrder = require("../models/propertyOrder.model");
 const bcrypt = require("bcryptjs");
 const { generateToken } = require("../util/scripts/jwt");
 const cloudinary = require("../util/cloudinary");
+const fs = require('fs').promises;
+const path = require('path');
 
 
 exports.getPaginatedProperty = async (req, res, next) => {
@@ -138,13 +140,18 @@ exports.getPropertyOrder = async (req, res, next) => {
 };
 
 exports.createProperty = async (req, res, next) => {
-  const uploader = (data) =>
-    new Promise((resolve, reject) => {
-      cloudinary.uploader.upload(data.tempFilePath, (err, result) => {
-        if (err) console.log(err);
-        resolve(result);
-      });
-    });
+  // Create a temporary file path
+  const tempFilePath = path.join(__dirname, req.file.originalname);
+  // Write the buffer contents to the temporary file
+  await fs.writeFile(tempFilePath, req.file.buffer);
+  const uploader = await cloudinary.uploader.upload(tempFilePath, { resource_type: 'auto' })
+  // const uploader = (data) =>
+  //   new Promise((resolve, reject) => {
+  //     cloudinary.uploader.upload(data.tempFilePath, (err, result) => {
+  //       if (err) console.log(err);
+  //       resolve(result);
+  //     });
+  //   });
 
   const propertyImage = await uploader(req.files.propertyImage);
   const agentImage = await uploader(req.files.agentImage);
