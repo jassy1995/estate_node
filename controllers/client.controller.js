@@ -11,6 +11,9 @@ exports.uploadFile = async (req, res) => {
     if (!req.body.description) {
         return res.status(400).json({ status: false, message: 'Description is required', data: null });
     }
+    if (!req.body.category) {
+        return res.status(400).json({ status: false, message: 'Category is required', data: null });
+    }
     // Create a temporary file path
     const tempFilePath = path.join(__dirname, req.file.originalname);
     // Write the buffer contents to the temporary file
@@ -26,12 +29,20 @@ exports.uploadFile = async (req, res) => {
     //     }
     // });
 
-    const payload = { file_url: result?.secure_url, public_id: result.public_id, description: req.body.description }
+    const payload = {
+        file_url: result?.secure_url,
+        public_id: result.public_id,
+        description: req.body.description,
+        category: req.body.category?.trim()?.toLowerCase(),
+    }
     const newFile = new XmlFile(payload);
     const savedFile = await newFile.save();
     return res.status(200).json({ status: false, message: "upload successful", data: savedFile });
 }
 exports.getFiles = async (req, res) => {
-    const retrieved_files = await XmlFile.find().sort({ createdAt: -1 })
+    if (!req.query.category) {
+        return res.status(400).json({ status: false, message: 'Category is required, kindly add it as query string', data: null });
+    }
+    const retrieved_files = await XmlFile.find({ category: req.query.category?.trim()?.toLowerCase() }).sort({ createdAt: -1 })
     return res.status(200).json({ status: true, message: "Retrieved successful", data: retrieved_files });
 }
