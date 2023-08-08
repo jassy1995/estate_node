@@ -37,7 +37,7 @@ exports.uploadFile = async (req, res) => {
     }
     const newFile = new XmlFile(payload);
     const savedFile = await newFile.save();
-    return res.status(200).json({ status: false, message: "upload successful", data: savedFile });
+    return res.status(200).json({ status: true, message: "upload successful", data: savedFile });
 }
 exports.getFiles = async (req, res) => {
     if (!req.query.category) {
